@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Neko Project II for Android</string>
+  <string name="np2_menu">NP2 menu</string>
+  <string name="fdd">FDD</string>
+  <string name="hdd">HDD</string>
+  <string name="setting">Settings</string>
+  <string name="reset">Reset</string>
+  <string name="exit">Close</string>
+  <string name="soft_keyboard">Software keyboard</string>
+  <string name="screen_position">Screen position</string>
+  <string name="sidekey">Extra keyboard</string>
+  <string name="sidekey_position">Extra keyboard position</string>
+  <string name="underkey">Main keyboard</string>
+  <string name="resolution">Resolution</string>
+  <string name="key_height">Software keyboard height</string>
+</resources>

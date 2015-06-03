@@ -1,0 +1,172 @@
+diff --git a/src/SDL_android.cpp b/src/SDL_android.cpp
+--- a/src/SDL_android.cpp
++++ b/src/SDL_android.cpp
+@@ -172,77 +172,70 @@
+ // Audio support
+ //
+ static jint audioBufferFrames = 0;
+-static bool audioBuffer16Bit = false;
+-static bool audioBufferStereo = false;
+-
+-static jobject audioBuffer;
+-static void * audioPinnedBuffer;
++static jboolean audioBuffer16Bit = JNI_FALSE;
++static jboolean audioBufferStereo = JNI_FALSE;
++static jobject audioBuffer = NULL;
++static void* audioBufferPinned = NULL;
+ 
+ extern "C" int Android_JNI_OpenAudioDevice(int sampleRate, int is16Bit, int channelCount, int desiredBufferFrames)
+ {
++	jboolean isCopy = JNI_FALSE;
++
+ 	__android_log_print(ANDROID_LOG_VERBOSE, "SDL", "SDL audio: opening device");
+ 	audioBuffer16Bit = is16Bit;
+ 	audioBufferStereo = channelCount > 1;
+ 
+ 	audioBuffer = mEnv->CallStaticObjectMethod(mActivityInstance, midAudioInit, sampleRate, audioBuffer16Bit, audioBufferStereo, desiredBufferFrames);
+-	audioBuffer = mEnv->NewGlobalRef(audioBuffer);
+ 
+ 	if (audioBuffer == NULL) {
+ 		__android_log_print(ANDROID_LOG_WARN, "SDL", "SDL audio: didn't get back a good audio buffer!");
+ 		return 0;
+ 	}
++    audioBuffer = mEnv->NewGlobalRef(audioBuffer);
+ 
+-	if (audioBufferStereo) {
+-		audioBufferFrames = mEnv->GetArrayLength((jshortArray)audioBuffer) / 2;
++	if (audioBuffer16Bit) {
++		audioBufferPinned = mEnv->GetShortArrayElements((jshortArray)audioBuffer, &isCopy);
++        audioBufferFrames = mEnv->GetArrayLength((jshortArray)audioBuffer);
+ 	} else {
+-		audioBufferFrames = mEnv->GetArrayLength((jbyteArray)audioBuffer);
++		audioBufferPinned = mEnv->GetByteArrayElements((jbyteArray)audioBuffer, &isCopy);
++        audioBufferFrames = mEnv->GetArrayLength((jbyteArray)audioBuffer);
+ 	}
++    if (audioBufferStereo) {
++        audioBufferFrames /= 2;
++    }
+ 
+ 	return audioBufferFrames;
+ }
+ 
+-extern "C" void * Android_JNI_PinAudioBuffer()
++extern "C" void * Android_JNI_GetAudioBuffer()
+ {
+-	jboolean isCopy = JNI_FALSE;
++    //jboolean isCopy = JNI_FALSE;
++    //audioBufferPinned = mAudioEnv->GetPrimitiveArrayCritical((jarray)audioBuffer, &isCopy);
++	return audioBufferPinned;
++}
+ 
+-	if (audioPinnedBuffer != NULL) {
+-		return audioPinnedBuffer;
+-	}
++extern "C" void Android_JNI_WriteAudioBuffer()
++{
++    //mAudioEnv->ReleasePrimitiveArrayCritical((jarray)audioBuffer, audioBufferPinned, 0);
++    if (audioBuffer16Bit) {
++        mAudioEnv->ReleaseShortArrayElements((jshortArray)audioBuffer, (
++        mAudioEnv->CallStaticVoidMethod(mActivityInstance, midAudioWrite
++    } else {
++        mAudioEnv->ReleaseByteArrayElements((jbyteArray)audioBuffer, (jb
++        mAudioEnv->CallStaticVoidMethod(mActivityInstance, midAudioWrite
++    }
+ 
+ 	if (audioBuffer16Bit) {
+-		audioPinnedBuffer = mAudioEnv->GetShortArrayElements((jshortArray)audioBuffer, &isCopy);
+-	} else {
+-		audioPinnedBuffer = mAudioEnv->GetByteArrayElements((jbyteArray)audioBuffer, &isCopy);
+-	}
+-
+-	return audioPinnedBuffer;
+-}
+-
+-extern "C" void Android_JNI_WriteAudioBufferAndUnpin()
+-{
+-	if (audioPinnedBuffer == NULL) {
+-		return;
+-	}
+-
+-	if (audioBuffer16Bit) {
+-		mAudioEnv->ReleaseShortArrayElements((jshortArray)audioBuffer, (jshort *)audioPinnedBuffer, JNI_COMMIT);
+ 		mAudioEnv->CallStaticVoidMethod(mActivityInstance, midAudioWriteShortBuffer, (jshortArray)audioBuffer);
+ 	} else {
+-		mAudioEnv->ReleaseByteArrayElements((jbyteArray)audioBuffer, (jbyte *)audioPinnedBuffer, JNI_COMMIT);
+ 		mAudioEnv->CallStaticVoidMethod(mActivityInstance, midAudioWriteByteBuffer, (jbyteArray)audioBuffer);
+ 	}
+-
+-	audioPinnedBuffer = NULL;
+ }
+ 
+ extern "C" void Android_JNI_CloseAudioDevice()
+ {
+-    if (audioBuffer) {
+-        mEnv->DeleteGlobalRef(audioBuffer);
+-        audioBuffer = NULL;
+-    }
+-
+-	// TODO: Implement
++    /* FIXME: Call to JNI to wait for audio thread to complete,
++              and then DeleteGlobalRef() on the audioBuffer */
+ }
+ 
+ /* vi: set ts=4 sw=4 expandtab: */
+diff --git a/src/SDL_android.h b/src/SDL_android.h
+--- a/src/SDL_android.h
++++ b/src/SDL_android.h
+@@ -34,8 +34,8 @@
+ 
+ // Audio support
+ int Android_JNI_OpenAudioDevice(int sampleRate, int is16Bit, int channelCount, int desiredBufferFrames);
+-void* Android_JNI_PinAudioBuffer();
+-void Android_JNI_WriteAudioBufferAndUnpin();
++void* Android_JNI_GetAudioBuffer();
++void Android_JNI_WriteAudioBuffer();
+ void Android_JNI_CloseAudioDevice();
+ 
+ /* Ends C function definitions when using C++ */
+diff --git a/src/audio/android/SDL_androidaudio.c b/src/audio/android/SDL_androidaudio.c
+--- a/src/audio/android/SDL_androidaudio.c
++++ b/src/audio/android/SDL_androidaudio.c
+@@ -103,26 +103,19 @@
+ static void
+ AndroidAUD_PlayDevice(_THIS)
+ {
+-    Android_JNI_WriteAudioBufferAndUnpin();
+-    this->hidden->mixbuf = NULL;
++    Android_JNI_WriteAudioBuffer();
+ }
+ 
+ static Uint8 *
+ AndroidAUD_GetDeviceBuf(_THIS)
+ {
+-	if (this->hidden->mixbuf == NULL) {
+-		this->hidden->mixbuf = Android_JNI_PinAudioBuffer();
+-	}
+-    return this->hidden->mixbuf;
++    return Android_JNI_GetAudioBuffer();
+ }
+ 
+ static void
+ AndroidAUD_CloseDevice(_THIS)
+ {
+     if (this->hidden != NULL) {
+-    	if (this->hidden->mixbuf != NULL) {
+-    		Android_JNI_WriteAudioBufferAndUnpin();
+-    	}
+     	SDL_free(this->hidden);
+     	this->hidden = NULL;
+     }
+diff --git a/src/audio/android/SDL_androidaudio.h b/src/audio/android/SDL_androidaudio.h
+--- a/src/audio/android/SDL_androidaudio.h
++++ b/src/audio/android/SDL_androidaudio.h
+@@ -31,9 +31,6 @@
+ 
+ struct SDL_PrivateAudioData
+ {
+-    /* The file descriptor for the audio device */
+-    Uint8 *mixbuf;
+-    Uint32 mixlen;
+ };
+ 
+ #endif /* _SDL_androidaudio_h */

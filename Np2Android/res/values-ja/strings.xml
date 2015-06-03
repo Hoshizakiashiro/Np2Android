@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NP2 for Android</string>
+    <string name="np2_menu">NP2メニュー</string>
+    <string name="fdd">FDD</string>
+    <string name="hdd">HDD</string>
+    <string name="setting">設定</string>
+    <string name="reset">リセット</string>
+    <string name="exit">終了</string>
+    <string name="soft_keyboard">ソフトキー</string>
+    <string name="screen_position">画面位置</string>
+    <string name="sidekey">横ソフトキー表示</string>
+    <string name="sidekey_position">横ソフトキー位置</string>
+    <string name="underkey">下ソフトキー表示</string>
+    <string name="resolution">解像度</string>
+    <string name="key_height">ソフトキー高さ</string>
+</resources>

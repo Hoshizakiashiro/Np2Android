@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Setting">
+			
+ 		<CheckBoxPreference android:key="fullscreen" android:title="Fullscreen"/>
+ 		
+ 		<EditTextPreference android:key="width" android:title="Width" android:inputType="number" android:maxLength="4"/>
+ 		
+ 		<EditTextPreference android:key="height" android:title="Height" android:inputType="number" android:maxLength="4"/>
+
+ 		<ListPreference 
+ 			android:key="mode" 
+ 			android:title="@string/resolution"  
+ 			android:dialogTitle="@string/resolution"
+ 			android:entries="@array/mode_list"
+			android:entryValues="@array/mode_values" />		
+ 		<ListPreference 
+ 			android:key="position" 
+ 			android:title="@string/screen_position"  
+ 			android:dialogTitle="@string/screen_position"
+ 			android:entries="@array/position_list"
+			android:entryValues="@array/position_values" />
+		
+		<CheckBoxPreference android:key="sidekey" android:title="@string/sidekey"/>
+		
+ 		<ListPreference 
+ 			android:key="keyposition" 
+ 			android:title="@string/sidekey_position"  
+ 			android:dialogTitle="@string/sidekey_position"
+ 			android:entries="@array/keyposition_list"
+			android:entryValues="@array/keyposition_values" />
+			
+		<CheckBoxPreference android:key="underkey" android:title="@string/underkey"/>
+		<EditTextPreference android:key="key_height" android:title="@string/key_height" android:inputType="number" android:maxLength="4"/>
+		
+		<Preference android:key="keymapfile" android:title="keymap file"/>
+ 			
+ 	</PreferenceCategory> 		
+</PreferenceScreen>

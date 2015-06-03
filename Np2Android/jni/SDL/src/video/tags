@@ -1,0 +1,676 @@
+ADD_COUNTS	SDL_RLEaccel.c	/^#define ADD_COUNTS(n, m)			\\$/
+ADD_OPAQUE_COUNTS	SDL_RLEaccel.c	/^#define ADD_OPAQUE_COUNTS(n, m)			\\$/
+ADD_TRANSL_COUNTS	SDL_RLEaccel.c	/^#define ADD_TRANSL_COUNTS(n, m)		\\$/
+ALPHA_BLIT16_50	SDL_RLEaccel.c	/^#define ALPHA_BLIT16_50(to, from, length, bpp, alp/
+ALPHA_BLIT16_555	SDL_RLEaccel.c	/^#define ALPHA_BLIT16_555(to, from, length, bpp, al/
+ALPHA_BLIT16_555_50	SDL_RLEaccel.c	/^#define ALPHA_BLIT16_555_50(to, from, length, bpp,/
+ALPHA_BLIT16_565	SDL_RLEaccel.c	/^#define ALPHA_BLIT16_565(to, from, length, bpp, al/
+ALPHA_BLIT16_565_50	SDL_RLEaccel.c	/^#define ALPHA_BLIT16_565_50(to, from, length, bpp,/
+ALPHA_BLIT32_888	SDL_RLEaccel.c	/^#define ALPHA_BLIT32_888(to, from, length, bpp, al/
+ALPHA_BLIT32_888_50	SDL_RLEaccel.c	/^#define ALPHA_BLIT32_888_50(to, from, length, bpp,/
+ALPHA_BLIT_ANY	SDL_RLEaccel.c	/^#define ALPHA_BLIT_ANY(to, from, length, bpp, alph/
+BLEND16_50	SDL_RLEaccel.c	/^#define BLEND16_50(dst, src, mask)			\\$/
+BLEND2x16_50	SDL_blit_A.c	/^#define BLEND2x16_50(d, s, mask)					     \\$/
+BLIT_TRANSL_555	SDL_RLEaccel.c	/^#define BLIT_TRANSL_555(src, dst)		\\$/
+BLIT_TRANSL_565	SDL_RLEaccel.c	/^#define BLIT_TRANSL_565(src, dst)		\\$/
+BLIT_TRANSL_888	SDL_RLEaccel.c	/^#define BLIT_TRANSL_888(src, dst)				\\$/
+Blit16to16SurfaceAlpha128	SDL_blit_A.c	/^Blit16to16SurfaceAlpha128(SDL_BlitInfo * info, Uin/
+Blit1to1	SDL_blit_1.c	/^Blit1to1(SDL_BlitInfo * info)$/
+Blit1to1Key	SDL_blit_1.c	/^Blit1to1Key(SDL_BlitInfo * info)$/
+Blit1to2	SDL_blit_1.c	/^Blit1to2(SDL_BlitInfo * info)$/
+Blit1to2Key	SDL_blit_1.c	/^Blit1to2Key(SDL_BlitInfo * info)$/
+Blit1to3	SDL_blit_1.c	/^Blit1to3(SDL_BlitInfo * info)$/
+Blit1to3Key	SDL_blit_1.c	/^Blit1to3Key(SDL_BlitInfo * info)$/
+Blit1to4	SDL_blit_1.c	/^Blit1to4(SDL_BlitInfo * info)$/
+Blit1to4Key	SDL_blit_1.c	/^Blit1to4Key(SDL_BlitInfo * info)$/
+Blit1toNAlpha	SDL_blit_1.c	/^Blit1toNAlpha(SDL_BlitInfo * info)$/
+Blit1toNAlphaKey	SDL_blit_1.c	/^Blit1toNAlphaKey(SDL_BlitInfo * info)$/
+Blit2to2Key	SDL_blit_N.c	/^Blit2to2Key(SDL_BlitInfo * info)$/
+Blit32to32KeyAltivec	SDL_blit_N.c	/^Blit32to32KeyAltivec(SDL_BlitInfo * info)$/
+Blit32to32PixelAlphaAltivec	SDL_blit_A.c	/^Blit32to32PixelAlphaAltivec(SDL_BlitInfo * info)$/
+Blit32to32SurfaceAlphaAltivec	SDL_blit_A.c	/^Blit32to32SurfaceAlphaAltivec(SDL_BlitInfo * info)/
+Blit32to32SurfaceAlphaKeyAltivec	SDL_blit_A.c	/^Blit32to32SurfaceAlphaKeyAltivec(SDL_BlitInfo * in/
+Blit32to565PixelAlphaAltivec	SDL_blit_A.c	/^Blit32to565PixelAlphaAltivec(SDL_BlitInfo * info)$/
+Blit4to4MaskAlpha	SDL_blit_N.c	/^Blit4to4MaskAlpha(SDL_BlitInfo * info)$/
+Blit555to555SurfaceAlpha	SDL_blit_A.c	/^Blit555to555SurfaceAlpha(SDL_BlitInfo * info)$/
+Blit555to555SurfaceAlphaMMX	SDL_blit_A.c	/^Blit555to555SurfaceAlphaMMX(SDL_BlitInfo * info)$/
+Blit565to565SurfaceAlpha	SDL_blit_A.c	/^Blit565to565SurfaceAlpha(SDL_BlitInfo * info)$/
+Blit565to565SurfaceAlphaMMX	SDL_blit_A.c	/^Blit565to565SurfaceAlphaMMX(SDL_BlitInfo * info)$/
+BlitARGBto555PixelAlpha	SDL_blit_A.c	/^BlitARGBto555PixelAlpha(SDL_BlitInfo * info)$/
+BlitARGBto565PixelAlpha	SDL_blit_A.c	/^BlitARGBto565PixelAlpha(SDL_BlitInfo * info)$/
+BlitBto1	SDL_blit_0.c	/^BlitBto1(SDL_BlitInfo * info)$/
+BlitBto1Key	SDL_blit_0.c	/^BlitBto1Key(SDL_BlitInfo * info)$/
+BlitBto2	SDL_blit_0.c	/^BlitBto2(SDL_BlitInfo * info)$/
+BlitBto2Key	SDL_blit_0.c	/^BlitBto2Key(SDL_BlitInfo * info)$/
+BlitBto3	SDL_blit_0.c	/^BlitBto3(SDL_BlitInfo * info)$/
+BlitBto3Key	SDL_blit_0.c	/^BlitBto3Key(SDL_BlitInfo * info)$/
+BlitBto4	SDL_blit_0.c	/^BlitBto4(SDL_BlitInfo * info)$/
+BlitBto4Key	SDL_blit_0.c	/^BlitBto4Key(SDL_BlitInfo * info)$/
+BlitBtoNAlpha	SDL_blit_0.c	/^BlitBtoNAlpha(SDL_BlitInfo * info)$/
+BlitBtoNAlphaKey	SDL_blit_0.c	/^BlitBtoNAlphaKey(SDL_BlitInfo * info)$/
+BlitNto1	SDL_blit_N.c	/^BlitNto1(SDL_BlitInfo * info)$/
+BlitNto1Key	SDL_blit_N.c	/^BlitNto1Key(SDL_BlitInfo * info)$/
+BlitNto1PixelAlpha	SDL_blit_A.c	/^BlitNto1PixelAlpha(SDL_BlitInfo * info)$/
+BlitNto1SurfaceAlpha	SDL_blit_A.c	/^BlitNto1SurfaceAlpha(SDL_BlitInfo * info)$/
+BlitNto1SurfaceAlphaKey	SDL_blit_A.c	/^BlitNto1SurfaceAlphaKey(SDL_BlitInfo * info)$/
+BlitNtoN	SDL_blit_N.c	/^BlitNtoN(SDL_BlitInfo * info)$/
+BlitNtoNCopyAlpha	SDL_blit_N.c	/^BlitNtoNCopyAlpha(SDL_BlitInfo * info)$/
+BlitNtoNKey	SDL_blit_N.c	/^BlitNtoNKey(SDL_BlitInfo * info)$/
+BlitNtoNKeyCopyAlpha	SDL_blit_N.c	/^BlitNtoNKeyCopyAlpha(SDL_BlitInfo * info)$/
+BlitNtoNPixelAlpha	SDL_blit_A.c	/^BlitNtoNPixelAlpha(SDL_BlitInfo * info)$/
+BlitNtoNSurfaceAlpha	SDL_blit_A.c	/^BlitNtoNSurfaceAlpha(SDL_BlitInfo * info)$/
+BlitNtoNSurfaceAlphaKey	SDL_blit_A.c	/^BlitNtoNSurfaceAlphaKey(SDL_BlitInfo * info)$/
+BlitRGBtoRGBPixelAlpha	SDL_blit_A.c	/^BlitRGBtoRGBPixelAlpha(SDL_BlitInfo * info)$/
+BlitRGBtoRGBPixelAlphaAltivec	SDL_blit_A.c	/^BlitRGBtoRGBPixelAlphaAltivec(SDL_BlitInfo * info)/
+BlitRGBtoRGBPixelAlphaMMX	SDL_blit_A.c	/^BlitRGBtoRGBPixelAlphaMMX(SDL_BlitInfo * info)$/
+BlitRGBtoRGBPixelAlphaMMX3DNOW	SDL_blit_A.c	/^BlitRGBtoRGBPixelAlphaMMX3DNOW(SDL_BlitInfo * info/
+BlitRGBtoRGBSurfaceAlpha	SDL_blit_A.c	/^BlitRGBtoRGBSurfaceAlpha(SDL_BlitInfo * info)$/
+BlitRGBtoRGBSurfaceAlpha128	SDL_blit_A.c	/^BlitRGBtoRGBSurfaceAlpha128(SDL_BlitInfo * info)$/
+BlitRGBtoRGBSurfaceAlpha128MMX	SDL_blit_A.c	/^BlitRGBtoRGBSurfaceAlpha128MMX(SDL_BlitInfo * info/
+BlitRGBtoRGBSurfaceAlphaAltivec	SDL_blit_A.c	/^BlitRGBtoRGBSurfaceAlphaAltivec(SDL_BlitInfo * inf/
+BlitRGBtoRGBSurfaceAlphaMMX	SDL_blit_A.c	/^BlitRGBtoRGBSurfaceAlphaMMX(SDL_BlitInfo * info)$/
+Blit_RGB555_32Altivec	SDL_blit_N.c	/^Blit_RGB555_32Altivec(SDL_BlitInfo * info)$/
+Blit_RGB565_32	SDL_blit_N.c	/^Blit_RGB565_32(SDL_BlitInfo * info, const Uint32 */
+Blit_RGB565_32Altivec	SDL_blit_N.c	/^Blit_RGB565_32Altivec(SDL_BlitInfo * info)$/
+Blit_RGB565_ABGR8888	SDL_blit_N.c	/^Blit_RGB565_ABGR8888(SDL_BlitInfo * info)$/
+Blit_RGB565_ARGB8888	SDL_blit_N.c	/^Blit_RGB565_ARGB8888(SDL_BlitInfo * info)$/
+Blit_RGB565_BGRA8888	SDL_blit_N.c	/^Blit_RGB565_BGRA8888(SDL_BlitInfo * info)$/
+Blit_RGB565_RGBA8888	SDL_blit_N.c	/^Blit_RGB565_RGBA8888(SDL_BlitInfo * info)$/
+Blit_RGB888_RGB555	SDL_blit_N.c	/^Blit_RGB888_RGB555(SDL_BlitInfo * info)$/
+Blit_RGB888_RGB565	SDL_blit_N.c	/^Blit_RGB888_RGB565(SDL_BlitInfo * info)$/
+Blit_RGB888_RGB565Altivec	SDL_blit_N.c	/^Blit_RGB888_RGB565Altivec(SDL_BlitInfo * info)$/
+Blit_RGB888_index8	SDL_blit_N.c	/^Blit_RGB888_index8(SDL_BlitInfo * info)$/
+Blit_RGB888_index8_map	SDL_blit_N.c	/^Blit_RGB888_index8_map(SDL_BlitInfo * info)$/
+CASE	SDL_pixels.c	/^#define CASE(X) case X: return #X;$/
+CHECK_TEXTURE_MAGIC	SDL_video.c	/^#define CHECK_TEXTURE_MAGIC(texture, retval) \\$/
+CHECK_WINDOW_MAGIC	SDL_video.c	/^#define CHECK_WINDOW_MAGIC(window, retval) \\$/
+CHOOSE_BLIT	SDL_RLEaccel.c	/^#define CHOOSE_BLIT(blitter, alpha, fmt)				\\$/
+CalculateGammaFromRamp	SDL_gamma.c	/^CalculateGammaFromRamp(float *gamma, Uint16 * ramp/
+CalculateGammaRamp	SDL_gamma.c	/^CalculateGammaRamp(float gamma, Uint16 * ramp)$/
+Color16DitherYUY2Mod1X	SDL_yuv_sw.c	/^Color16DitherYUY2Mod1X(int *colortab, Uint32 * rgb/
+Color16DitherYUY2Mod2X	SDL_yuv_sw.c	/^Color16DitherYUY2Mod2X(int *colortab, Uint32 * rgb/
+Color16DitherYV12Mod1X	SDL_yuv_sw.c	/^Color16DitherYV12Mod1X(int *colortab, Uint32 * rgb/
+Color16DitherYV12Mod2X	SDL_yuv_sw.c	/^Color16DitherYV12Mod2X(int *colortab, Uint32 * rgb/
+Color24DitherYUY2Mod1X	SDL_yuv_sw.c	/^Color24DitherYUY2Mod1X(int *colortab, Uint32 * rgb/
+Color24DitherYUY2Mod2X	SDL_yuv_sw.c	/^Color24DitherYUY2Mod2X(int *colortab, Uint32 * rgb/
+Color24DitherYV12Mod1X	SDL_yuv_sw.c	/^Color24DitherYV12Mod1X(int *colortab, Uint32 * rgb/
+Color24DitherYV12Mod2X	SDL_yuv_sw.c	/^Color24DitherYV12Mod2X(int *colortab, Uint32 * rgb/
+Color32DitherYUY2Mod1X	SDL_yuv_sw.c	/^Color32DitherYUY2Mod1X(int *colortab, Uint32 * rgb/
+Color32DitherYUY2Mod2X	SDL_yuv_sw.c	/^Color32DitherYUY2Mod2X(int *colortab, Uint32 * rgb/
+Color32DitherYV12Mod1X	SDL_yuv_sw.c	/^Color32DitherYV12Mod1X(int *colortab, Uint32 * rgb/
+Color32DitherYV12Mod2X	SDL_yuv_sw.c	/^Color32DitherYV12Mod2X(int *colortab, Uint32 * rgb/
+Color565DitherYV12MMX1X	SDL_yuv_mmx.c	/^void Color565DitherYV12MMX1X( int *colortab, Uint3/
+ColorRGBDitherYV12MMX1X	SDL_yuv_mmx.c	/^void ColorRGBDitherYV12MMX1X( int *colortab, Uint3/
+ComputeOutCode	SDL_rect.c	/^static int ComputeOutCode(const SDL_Rect * rect, i/
+ConvertAltivec32to32_noprefetch	SDL_blit_N.c	/^ConvertAltivec32to32_noprefetch(SDL_BlitInfo * inf/
+ConvertAltivec32to32_prefetch	SDL_blit_N.c	/^ConvertAltivec32to32_prefetch(SDL_BlitInfo * info)/
+CreateMaskFromColorKeyOrAlpha	SDL_video.c	/^CreateMaskFromColorKeyOrAlpha(SDL_Surface * icon, /
+CreateTexture	SDL_renderer_sw.c	/^CreateTexture(SDL_Renderer * renderer, Uint32 form/
+DEFINE_COPY_ROW	SDL_stretch.c	/^#define DEFINE_COPY_ROW(name, type)			\\$/
+DEFINE_MMX_FILLRECT	SDL_fillrect.c	/^#define DEFINE_MMX_FILLRECT(bpp, type) \\$/
+DEFINE_PREMULTIPLY_FUNC	SDL_alphamult.c	/^#define DEFINE_PREMULTIPLY_FUNC(fmt) \\$/
+DEFINE_SSE_FILLRECT	SDL_fillrect.c	/^#define DEFINE_SSE_FILLRECT(bpp, type) \\$/
+DST_CTRL	SDL_blit_N.c	/^#define DST_CTRL(size, count, stride) \\$/
+DestroyTexture	SDL_renderer_sw.c	/^DestroyTexture(SDL_Renderer * renderer, SDL_Textur/
+DisplayPaletteChanged	SDL_renderer_sw.c	/^DisplayPaletteChanged(void *userdata, SDL_Palette /
+GLES_ActivateRenderer	SDL_renderer_gles.c	/^GLES_ActivateRenderer(SDL_Renderer * renderer)$/
+GLES_CreateRenderer	SDL_renderer_gles.c	/^GLES_CreateRenderer(SDL_Window * window, Uint32 fl/
+GLES_CreateTexture	SDL_renderer_gles.c	/^GLES_CreateTexture(SDL_Renderer * renderer, SDL_Te/
+GLES_DestroyRenderer	SDL_renderer_gles.c	/^GLES_DestroyRenderer(SDL_Renderer * renderer)$/
+GLES_DestroyTexture	SDL_renderer_gles.c	/^GLES_DestroyTexture(SDL_Renderer * renderer, SDL_T/
+GLES_DirtyTexture	SDL_renderer_gles.c	/^GLES_DirtyTexture(SDL_Renderer * renderer, SDL_Tex/
+GLES_DisplayModeChanged	SDL_renderer_gles.c	/^GLES_DisplayModeChanged(SDL_Renderer * renderer)$/
+GLES_GetTexturePalette	SDL_renderer_gles.c	/^GLES_GetTexturePalette(SDL_Renderer * renderer, SD/
+GLES_LoadFunctions	SDL_renderer_gles.c	/^GLES_LoadFunctions(GLES_RenderData * data)$/
+GLES_LockTexture	SDL_renderer_gles.c	/^GLES_LockTexture(SDL_Renderer * renderer, SDL_Text/
+GLES_QueryTexturePixels	SDL_renderer_gles.c	/^GLES_QueryTexturePixels(SDL_Renderer * renderer, S/
+GLES_RenderCopy	SDL_renderer_gles.c	/^GLES_RenderCopy(SDL_Renderer * renderer, SDL_Textu/
+GLES_RenderData	SDL_renderer_gles.c	/^} GLES_RenderData;$/
+GLES_RenderDrawLines	SDL_renderer_gles.c	/^GLES_RenderDrawLines(SDL_Renderer * renderer, cons/
+GLES_RenderDrawPoints	SDL_renderer_gles.c	/^GLES_RenderDrawPoints(SDL_Renderer * renderer, con/
+GLES_RenderDrawRects	SDL_renderer_gles.c	/^GLES_RenderDrawRects(SDL_Renderer * renderer, cons/
+GLES_RenderFillRects	SDL_renderer_gles.c	/^GLES_RenderFillRects(SDL_Renderer * renderer, cons/
+GLES_RenderPresent	SDL_renderer_gles.c	/^GLES_RenderPresent(SDL_Renderer * renderer)$/
+GLES_SetBlendMode	SDL_renderer_gles.c	/^GLES_SetBlendMode(GLES_RenderData * data, int blen/
+GLES_SetError	SDL_renderer_gles.c	/^GLES_SetError(const char *prefix, GLenum result)$/
+GLES_SetTextureAlphaMod	SDL_renderer_gles.c	/^GLES_SetTextureAlphaMod(SDL_Renderer * renderer, S/
+GLES_SetTextureBlendMode	SDL_renderer_gles.c	/^GLES_SetTextureBlendMode(SDL_Renderer * renderer, /
+GLES_SetTextureColorMod	SDL_renderer_gles.c	/^GLES_SetTextureColorMod(SDL_Renderer * renderer, S/
+GLES_SetTexturePalette	SDL_renderer_gles.c	/^GLES_SetTexturePalette(SDL_Renderer * renderer, SD/
+GLES_SetTextureScaleMode	SDL_renderer_gles.c	/^GLES_SetTextureScaleMode(SDL_Renderer * renderer, /
+GLES_TextureData	SDL_renderer_gles.c	/^} GLES_TextureData;$/
+GLES_UnlockTexture	SDL_renderer_gles.c	/^GLES_UnlockTexture(SDL_Renderer * renderer, SDL_Te/
+GLES_UpdateTexture	SDL_renderer_gles.c	/^GLES_UpdateTexture(SDL_Renderer * renderer, SDL_Te/
+GL_ActivateRenderer	SDL_renderer_gl.c	/^GL_ActivateRenderer(SDL_Renderer * renderer)$/
+GL_CreateRenderer	SDL_renderer_gl.c	/^GL_CreateRenderer(SDL_Window * window, Uint32 flag/
+GL_CreateTexture	SDL_renderer_gl.c	/^GL_CreateTexture(SDL_Renderer * renderer, SDL_Text/
+GL_DestroyRenderer	SDL_renderer_gl.c	/^GL_DestroyRenderer(SDL_Renderer * renderer)$/
+GL_DestroyTexture	SDL_renderer_gl.c	/^GL_DestroyTexture(SDL_Renderer * renderer, SDL_Tex/
+GL_DirtyTexture	SDL_renderer_gl.c	/^GL_DirtyTexture(SDL_Renderer * renderer, SDL_Textu/
+GL_DisplayModeChanged	SDL_renderer_gl.c	/^GL_DisplayModeChanged(SDL_Renderer * renderer)$/
+GL_GetTexturePalette	SDL_renderer_gl.c	/^GL_GetTexturePalette(SDL_Renderer * renderer, SDL_/
+GL_LoadFunctions	SDL_renderer_gl.c	/^GL_LoadFunctions(GL_RenderData * data)$/
+GL_LockTexture	SDL_renderer_gl.c	/^GL_LockTexture(SDL_Renderer * renderer, SDL_Textur/
+GL_QueryTexturePixels	SDL_renderer_gl.c	/^GL_QueryTexturePixels(SDL_Renderer * renderer, SDL/
+GL_RenderClear	SDL_renderer_gl.c	/^GL_RenderClear(SDL_Renderer * renderer)$/
+GL_RenderCopy	SDL_renderer_gl.c	/^GL_RenderCopy(SDL_Renderer * renderer, SDL_Texture/
+GL_RenderData	SDL_renderer_gl.c	/^} GL_RenderData;$/
+GL_RenderDrawLines	SDL_renderer_gl.c	/^GL_RenderDrawLines(SDL_Renderer * renderer, const /
+GL_RenderDrawPoints	SDL_renderer_gl.c	/^GL_RenderDrawPoints(SDL_Renderer * renderer, const/
+GL_RenderDrawRects	SDL_renderer_gl.c	/^GL_RenderDrawRects(SDL_Renderer * renderer, const /
+GL_RenderFillRects	SDL_renderer_gl.c	/^GL_RenderFillRects(SDL_Renderer * renderer, const /
+GL_RenderPresent	SDL_renderer_gl.c	/^GL_RenderPresent(SDL_Renderer * renderer)$/
+GL_RenderReadPixels	SDL_renderer_gl.c	/^GL_RenderReadPixels(SDL_Renderer * renderer, const/
+GL_RenderWritePixels	SDL_renderer_gl.c	/^GL_RenderWritePixels(SDL_Renderer * renderer, cons/
+GL_SetBlendMode	SDL_renderer_gl.c	/^GL_SetBlendMode(GL_RenderData * data, int blendMod/
+GL_SetError	SDL_renderer_gl.c	/^GL_SetError(const char *prefix, GLenum result)$/
+GL_SetTextureAlphaMod	SDL_renderer_gl.c	/^GL_SetTextureAlphaMod(SDL_Renderer * renderer, SDL/
+GL_SetTextureBlendMode	SDL_renderer_gl.c	/^GL_SetTextureBlendMode(SDL_Renderer * renderer, SD/
+GL_SetTextureColorMod	SDL_renderer_gl.c	/^GL_SetTextureColorMod(SDL_Renderer * renderer, SDL/
+GL_SetTexturePalette	SDL_renderer_gl.c	/^GL_SetTexturePalette(SDL_Renderer * renderer, SDL_/
+GL_SetTextureScaleMode	SDL_renderer_gl.c	/^GL_SetTextureScaleMode(SDL_Renderer * renderer, SD/
+GL_TextureData	SDL_renderer_gl.c	/^} GL_TextureData;$/
+GL_UnlockTexture	SDL_renderer_gl.c	/^GL_UnlockTexture(SDL_Renderer * renderer, SDL_Text/
+GL_UpdateTexture	SDL_renderer_gl.c	/^GL_UpdateTexture(SDL_Renderer * renderer, SDL_Text/
+GetBlitFeatures	SDL_blit_N.c	/^GetBlitFeatures(void)$/
+GetL3CacheSize	SDL_blit_N.c	/^GetL3CacheSize(void)$/
+ISOPAQUE	SDL_RLEaccel.c	/^#define ISOPAQUE(pixel, fmt) ((((pixel) & fmt->Ama/
+ISTRANSL	SDL_RLEaccel.c	/^#define ISTRANSL(pixel, fmt)	\\$/
+MAKE8888	SDL_blit_N.c	/^#define MAKE8888(dstfmt, r, g, b, a)  \\$/
+MASKOK	SDL_blit_N.c	/^#define MASKOK(x, y) (((x) == (y)) || ((y) == 0x00/
+MAX	SDL_RLEaccel.c	/^#define MAX(a, b) ((a) > (b) ? (a) : (b))$/
+MIN	SDL_RLEaccel.c	/^#define MIN(a, b) ((a) < (b) ? (a) : (b))$/
+Map1to1	SDL_pixels.c	/^Map1to1(SDL_Palette * src, SDL_Palette * dst, int /
+Map1toN	SDL_pixels.c	/^Map1toN(SDL_PixelFormat * src, Uint8 Rmod, Uint8 G/
+MapNto1	SDL_pixels.c	/^MapNto1(SDL_PixelFormat * src, SDL_PixelFormat * d/
+ONE_PIXEL_BLEND	SDL_blit_A.c	/^#define ONE_PIXEL_BLEND(condition, widthvar) \\$/
+OPAQUE_BLIT	SDL_RLEaccel.c	/^#define OPAQUE_BLIT(to, from, length, bpp, alpha)	/
+PIXEL_COPY	SDL_RLEaccel.c	/^#define PIXEL_COPY(to, from, len, bpp)			\\$/
+RESHIFT	SDL_blit_A.c	/^#define RESHIFT(X) (3 - ((X) >> 3))$/
+RGB565_32	SDL_blit_N.c	/^#define RGB565_32(dst, src, map) (map[src[LO]*2] +/
+RGB888_RGB332	SDL_blit_N.c	/^#define RGB888_RGB332(dst, src) { \\$/
+RGB888_RGB555	SDL_blit_N.c	/^#define RGB888_RGB555(dst, src) { \\$/
+RGB888_RGB555_TWO	SDL_blit_N.c	/^#define RGB888_RGB555_TWO(dst, src) { \\$/
+RGB888_RGB565	SDL_blit_N.c	/^#define RGB888_RGB565(dst, src) { \\$/
+RGB888_RGB565_TWO	SDL_blit_N.c	/^#define RGB888_RGB565_TWO(dst, src) { \\$/
+RLEALPHABLIT	SDL_RLEaccel.c	/^#define RLEALPHABLIT(Ptype, Ctype, do_blend)				 /
+RLEALPHACLIPBLIT	SDL_RLEaccel.c	/^#define RLEALPHACLIPBLIT(Ptype, Ctype, do_blend)		/
+RLEAlphaClipBlit	SDL_RLEaccel.c	/^RLEAlphaClipBlit(int w, Uint8 * srcbuf, SDL_Surfac/
+RLEAlphaSurface	SDL_RLEaccel.c	/^RLEAlphaSurface(SDL_Surface * surface)$/
+RLEBLIT	SDL_RLEaccel.c	/^#define RLEBLIT(bpp, Type, do_blit)					      \\$/
+RLECLIPBLIT	SDL_RLEaccel.c	/^#define RLECLIPBLIT(bpp, Type, do_blit)					   \\$/
+RLEClipBlit	SDL_RLEaccel.c	/^RLEClipBlit(int w, Uint8 * srcbuf, SDL_Surface * d/
+RLEColorkeySurface	SDL_RLEaccel.c	/^RLEColorkeySurface(SDL_Surface * surface)$/
+RLEDestFormat	SDL_RLEaccel.c	/^} RLEDestFormat;$/
+RLESKIP	SDL_RLEaccel.c	/^#define RLESKIP(bpp, Type)			\\$/
+RecursivelyCalculateShapeTree	SDL_shape.c	/^RecursivelyCalculateShapeTree(SDL_WindowShapeMode /
+SDL_AddBasicVideoDisplay	SDL_video.c	/^SDL_AddBasicVideoDisplay(const SDL_DisplayMode * d/
+SDL_AddDirtyRect	SDL_rect.c	/^SDL_AddDirtyRect(SDL_DirtyRectList * list, const S/
+SDL_AddDisplayMode	SDL_video.c	/^SDL_AddDisplayMode(SDL_VideoDisplay * display,  co/
+SDL_AddPaletteWatch	SDL_pixels.c	/^SDL_AddPaletteWatch(SDL_Palette * palette, SDL_Pal/
+SDL_AddRenderDriver	SDL_video.c	/^SDL_AddRenderDriver(SDL_VideoDisplay * display, co/
+SDL_AddVideoDisplay	SDL_video.c	/^SDL_AddVideoDisplay(const SDL_VideoDisplay * displ/
+SDL_AllocBlitMap	SDL_pixels.c	/^SDL_AllocBlitMap(void)$/
+SDL_AllocFormat	SDL_pixels.c	/^SDL_AllocFormat(int bpp,$/
+SDL_AllocPalette	SDL_pixels.c	/^SDL_AllocPalette(int ncolors)$/
+SDL_ApplyGamma	SDL_pixels.c	/^SDL_ApplyGamma(Uint16 * gamma, SDL_Color * colors,/
+SDL_BlendFillRect	SDL_blendfillrect.c	/^SDL_BlendFillRect(SDL_Surface * dst, const SDL_Rec/
+SDL_BlendFillRect_ARGB8888	SDL_blendfillrect.c	/^SDL_BlendFillRect_ARGB8888(SDL_Surface * dst, cons/
+SDL_BlendFillRect_RGB	SDL_blendfillrect.c	/^SDL_BlendFillRect_RGB(SDL_Surface * dst, const SDL/
+SDL_BlendFillRect_RGB555	SDL_blendfillrect.c	/^SDL_BlendFillRect_RGB555(SDL_Surface * dst, const /
+SDL_BlendFillRect_RGB565	SDL_blendfillrect.c	/^SDL_BlendFillRect_RGB565(SDL_Surface * dst, const /
+SDL_BlendFillRect_RGB888	SDL_blendfillrect.c	/^SDL_BlendFillRect_RGB888(SDL_Surface * dst, const /
+SDL_BlendFillRect_RGBA	SDL_blendfillrect.c	/^SDL_BlendFillRect_RGBA(SDL_Surface * dst, const SD/
+SDL_BlendFillRects	SDL_blendfillrect.c	/^SDL_BlendFillRects(SDL_Surface * dst, const SDL_Re/
+SDL_BlendLine	SDL_blendline.c	/^SDL_BlendLine(SDL_Surface * dst, int x1, int y1, i/
+SDL_BlendLine_ARGB8888	SDL_blendline.c	/^SDL_BlendLine_ARGB8888(SDL_Surface * dst, int x1, /
+SDL_BlendLine_RGB2	SDL_blendline.c	/^SDL_BlendLine_RGB2(SDL_Surface * dst, int x1, int /
+SDL_BlendLine_RGB4	SDL_blendline.c	/^SDL_BlendLine_RGB4(SDL_Surface * dst, int x1, int /
+SDL_BlendLine_RGB555	SDL_blendline.c	/^SDL_BlendLine_RGB555(SDL_Surface * dst, int x1, in/
+SDL_BlendLine_RGB565	SDL_blendline.c	/^SDL_BlendLine_RGB565(SDL_Surface * dst, int x1, in/
+SDL_BlendLine_RGB888	SDL_blendline.c	/^SDL_BlendLine_RGB888(SDL_Surface * dst, int x1, in/
+SDL_BlendLine_RGBA4	SDL_blendline.c	/^SDL_BlendLine_RGBA4(SDL_Surface * dst, int x1, int/
+SDL_BlendLines	SDL_blendline.c	/^SDL_BlendLines(SDL_Surface * dst, const SDL_Point /
+SDL_BlendPoint	SDL_blendpoint.c	/^SDL_BlendPoint(SDL_Surface * dst, int x, int y, SD/
+SDL_BlendPoint_ARGB8888	SDL_blendpoint.c	/^SDL_BlendPoint_ARGB8888(SDL_Surface * dst, int x, /
+SDL_BlendPoint_RGB	SDL_blendpoint.c	/^SDL_BlendPoint_RGB(SDL_Surface * dst, int x, int y/
+SDL_BlendPoint_RGB555	SDL_blendpoint.c	/^SDL_BlendPoint_RGB555(SDL_Surface * dst, int x, in/
+SDL_BlendPoint_RGB565	SDL_blendpoint.c	/^SDL_BlendPoint_RGB565(SDL_Surface * dst, int x, in/
+SDL_BlendPoint_RGB888	SDL_blendpoint.c	/^SDL_BlendPoint_RGB888(SDL_Surface * dst, int x, in/
+SDL_BlendPoint_RGBA	SDL_blendpoint.c	/^SDL_BlendPoint_RGBA(SDL_Surface * dst, int x, int /
+SDL_BlendPoints	SDL_blendpoint.c	/^SDL_BlendPoints(SDL_Surface * dst, const SDL_Point/
+SDL_BlendRect	SDL_blendrect.c	/^SDL_BlendRect(SDL_Surface * dst, const SDL_Rect * /
+SDL_BlendRects	SDL_blendrect.c	/^SDL_BlendRects(SDL_Surface * dst, const SDL_Rect */
+SDL_BlitCopy	SDL_blit_copy.c	/^SDL_BlitCopy(SDL_BlitInfo * info)$/
+SDL_BlitCopyOverlap	SDL_blit_copy.c	/^SDL_BlitCopyOverlap(SDL_BlitInfo * info)$/
+SDL_Blit_ABGR8888_ARGB8888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Blend(SDL_B/
+SDL_Blit_ABGR8888_ARGB8888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Blend_Scale/
+SDL_Blit_ABGR8888_ARGB8888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Modulate(SD/
+SDL_Blit_ABGR8888_ARGB8888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Modulate_Bl/
+SDL_Blit_ABGR8888_ARGB8888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Modulate_Bl/
+SDL_Blit_ABGR8888_ARGB8888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Modulate_Sc/
+SDL_Blit_ABGR8888_ARGB8888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_ARGB8888_Scale(SDL_B/
+SDL_Blit_ABGR8888_BGR888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Blend(SDL_Bli/
+SDL_Blit_ABGR8888_BGR888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Blend_Scale(S/
+SDL_Blit_ABGR8888_BGR888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Modulate(SDL_/
+SDL_Blit_ABGR8888_BGR888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Modulate_Blen/
+SDL_Blit_ABGR8888_BGR888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Modulate_Blen/
+SDL_Blit_ABGR8888_BGR888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Modulate_Scal/
+SDL_Blit_ABGR8888_BGR888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_BGR888_Scale(SDL_Bli/
+SDL_Blit_ABGR8888_RGB888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Blend(SDL_Bli/
+SDL_Blit_ABGR8888_RGB888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Blend_Scale(S/
+SDL_Blit_ABGR8888_RGB888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Modulate(SDL_/
+SDL_Blit_ABGR8888_RGB888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Modulate_Blen/
+SDL_Blit_ABGR8888_RGB888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Modulate_Blen/
+SDL_Blit_ABGR8888_RGB888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Modulate_Scal/
+SDL_Blit_ABGR8888_RGB888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ABGR8888_RGB888_Scale(SDL_Bli/
+SDL_Blit_ARGB8888_ARGB8888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Blend(SDL_B/
+SDL_Blit_ARGB8888_ARGB8888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Blend_Scale/
+SDL_Blit_ARGB8888_ARGB8888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Modulate(SD/
+SDL_Blit_ARGB8888_ARGB8888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Modulate_Bl/
+SDL_Blit_ARGB8888_ARGB8888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Modulate_Bl/
+SDL_Blit_ARGB8888_ARGB8888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Modulate_Sc/
+SDL_Blit_ARGB8888_ARGB8888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_ARGB8888_Scale(SDL_B/
+SDL_Blit_ARGB8888_BGR888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Blend(SDL_Bli/
+SDL_Blit_ARGB8888_BGR888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Blend_Scale(S/
+SDL_Blit_ARGB8888_BGR888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Modulate(SDL_/
+SDL_Blit_ARGB8888_BGR888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Modulate_Blen/
+SDL_Blit_ARGB8888_BGR888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Modulate_Blen/
+SDL_Blit_ARGB8888_BGR888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Modulate_Scal/
+SDL_Blit_ARGB8888_BGR888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_BGR888_Scale(SDL_Bli/
+SDL_Blit_ARGB8888_RGB888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Blend(SDL_Bli/
+SDL_Blit_ARGB8888_RGB888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Blend_Scale(S/
+SDL_Blit_ARGB8888_RGB888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Modulate(SDL_/
+SDL_Blit_ARGB8888_RGB888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Modulate_Blen/
+SDL_Blit_ARGB8888_RGB888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Modulate_Blen/
+SDL_Blit_ARGB8888_RGB888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Modulate_Scal/
+SDL_Blit_ARGB8888_RGB888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_ARGB8888_RGB888_Scale(SDL_Bli/
+SDL_Blit_BGR888_ARGB8888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Blend(SDL_Bli/
+SDL_Blit_BGR888_ARGB8888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Blend_Scale(S/
+SDL_Blit_BGR888_ARGB8888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Modulate(SDL_/
+SDL_Blit_BGR888_ARGB8888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Modulate_Blen/
+SDL_Blit_BGR888_ARGB8888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Modulate_Blen/
+SDL_Blit_BGR888_ARGB8888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Modulate_Scal/
+SDL_Blit_BGR888_ARGB8888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_ARGB8888_Scale(SDL_Bli/
+SDL_Blit_BGR888_BGR888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Blend(SDL_BlitI/
+SDL_Blit_BGR888_BGR888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Blend_Scale(SDL/
+SDL_Blit_BGR888_BGR888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Modulate(SDL_Bl/
+SDL_Blit_BGR888_BGR888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Modulate_Blend(/
+SDL_Blit_BGR888_BGR888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Modulate_Blend_/
+SDL_Blit_BGR888_BGR888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Modulate_Scale(/
+SDL_Blit_BGR888_BGR888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_BGR888_Scale(SDL_BlitI/
+SDL_Blit_BGR888_RGB888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Blend(SDL_BlitI/
+SDL_Blit_BGR888_RGB888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Blend_Scale(SDL/
+SDL_Blit_BGR888_RGB888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Modulate(SDL_Bl/
+SDL_Blit_BGR888_RGB888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Modulate_Blend(/
+SDL_Blit_BGR888_RGB888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Modulate_Blend_/
+SDL_Blit_BGR888_RGB888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Modulate_Scale(/
+SDL_Blit_BGR888_RGB888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGR888_RGB888_Scale(SDL_BlitI/
+SDL_Blit_BGRA8888_ARGB8888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Blend(SDL_B/
+SDL_Blit_BGRA8888_ARGB8888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Blend_Scale/
+SDL_Blit_BGRA8888_ARGB8888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Modulate(SD/
+SDL_Blit_BGRA8888_ARGB8888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Modulate_Bl/
+SDL_Blit_BGRA8888_ARGB8888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Modulate_Bl/
+SDL_Blit_BGRA8888_ARGB8888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Modulate_Sc/
+SDL_Blit_BGRA8888_ARGB8888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_ARGB8888_Scale(SDL_B/
+SDL_Blit_BGRA8888_BGR888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Blend(SDL_Bli/
+SDL_Blit_BGRA8888_BGR888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Blend_Scale(S/
+SDL_Blit_BGRA8888_BGR888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Modulate(SDL_/
+SDL_Blit_BGRA8888_BGR888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Modulate_Blen/
+SDL_Blit_BGRA8888_BGR888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Modulate_Blen/
+SDL_Blit_BGRA8888_BGR888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Modulate_Scal/
+SDL_Blit_BGRA8888_BGR888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_BGR888_Scale(SDL_Bli/
+SDL_Blit_BGRA8888_RGB888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Blend(SDL_Bli/
+SDL_Blit_BGRA8888_RGB888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Blend_Scale(S/
+SDL_Blit_BGRA8888_RGB888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Modulate(SDL_/
+SDL_Blit_BGRA8888_RGB888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Modulate_Blen/
+SDL_Blit_BGRA8888_RGB888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Modulate_Blen/
+SDL_Blit_BGRA8888_RGB888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Modulate_Scal/
+SDL_Blit_BGRA8888_RGB888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_BGRA8888_RGB888_Scale(SDL_Bli/
+SDL_Blit_RGB888_ARGB8888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Blend(SDL_Bli/
+SDL_Blit_RGB888_ARGB8888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Blend_Scale(S/
+SDL_Blit_RGB888_ARGB8888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Modulate(SDL_/
+SDL_Blit_RGB888_ARGB8888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Modulate_Blen/
+SDL_Blit_RGB888_ARGB8888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Modulate_Blen/
+SDL_Blit_RGB888_ARGB8888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Modulate_Scal/
+SDL_Blit_RGB888_ARGB8888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_ARGB8888_Scale(SDL_Bli/
+SDL_Blit_RGB888_BGR888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Blend(SDL_BlitI/
+SDL_Blit_RGB888_BGR888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Blend_Scale(SDL/
+SDL_Blit_RGB888_BGR888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Modulate(SDL_Bl/
+SDL_Blit_RGB888_BGR888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Modulate_Blend(/
+SDL_Blit_RGB888_BGR888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Modulate_Blend_/
+SDL_Blit_RGB888_BGR888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Modulate_Scale(/
+SDL_Blit_RGB888_BGR888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_BGR888_Scale(SDL_BlitI/
+SDL_Blit_RGB888_RGB888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Blend(SDL_BlitI/
+SDL_Blit_RGB888_RGB888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Blend_Scale(SDL/
+SDL_Blit_RGB888_RGB888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Modulate(SDL_Bl/
+SDL_Blit_RGB888_RGB888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Modulate_Blend(/
+SDL_Blit_RGB888_RGB888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Modulate_Blend_/
+SDL_Blit_RGB888_RGB888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Modulate_Scale(/
+SDL_Blit_RGB888_RGB888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGB888_RGB888_Scale(SDL_BlitI/
+SDL_Blit_RGBA8888_ARGB8888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Blend(SDL_B/
+SDL_Blit_RGBA8888_ARGB8888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Blend_Scale/
+SDL_Blit_RGBA8888_ARGB8888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Modulate(SD/
+SDL_Blit_RGBA8888_ARGB8888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Modulate_Bl/
+SDL_Blit_RGBA8888_ARGB8888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Modulate_Bl/
+SDL_Blit_RGBA8888_ARGB8888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Modulate_Sc/
+SDL_Blit_RGBA8888_ARGB8888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_ARGB8888_Scale(SDL_B/
+SDL_Blit_RGBA8888_BGR888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Blend(SDL_Bli/
+SDL_Blit_RGBA8888_BGR888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Blend_Scale(S/
+SDL_Blit_RGBA8888_BGR888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Modulate(SDL_/
+SDL_Blit_RGBA8888_BGR888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Modulate_Blen/
+SDL_Blit_RGBA8888_BGR888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Modulate_Blen/
+SDL_Blit_RGBA8888_BGR888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Modulate_Scal/
+SDL_Blit_RGBA8888_BGR888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_BGR888_Scale(SDL_Bli/
+SDL_Blit_RGBA8888_RGB888_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Blend(SDL_Bli/
+SDL_Blit_RGBA8888_RGB888_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Blend_Scale(S/
+SDL_Blit_RGBA8888_RGB888_Modulate	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Modulate(SDL_/
+SDL_Blit_RGBA8888_RGB888_Modulate_Blend	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Modulate_Blen/
+SDL_Blit_RGBA8888_RGB888_Modulate_Blend_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Modulate_Blen/
+SDL_Blit_RGBA8888_RGB888_Modulate_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Modulate_Scal/
+SDL_Blit_RGBA8888_RGB888_Scale	SDL_blit_auto.c	/^static void SDL_Blit_RGBA8888_RGB888_Scale(SDL_Bli/
+SDL_Blit_Slow	SDL_blit_slow.c	/^SDL_Blit_Slow(SDL_BlitInfo * info)$/
+SDL_CalculateBlendLineFunc	SDL_blendline.c	/^SDL_CalculateBlendLineFunc(const SDL_PixelFormat */
+SDL_CalculateBlit	SDL_blit.c	/^SDL_CalculateBlit(SDL_Surface * surface)$/
+SDL_CalculateBlit0	SDL_blit_0.c	/^SDL_CalculateBlit0(SDL_Surface * surface)$/
+SDL_CalculateBlit1	SDL_blit_1.c	/^SDL_CalculateBlit1(SDL_Surface * surface)$/
+SDL_CalculateBlitA	SDL_blit_A.c	/^SDL_CalculateBlitA(SDL_Surface * surface)$/
+SDL_CalculateBlitN	SDL_blit_N.c	/^SDL_CalculateBlitN(SDL_Surface * surface)$/
+SDL_CalculateDrawLineFunc	SDL_drawline.c	/^SDL_CalculateDrawLineFunc(const SDL_PixelFormat * /
+SDL_CalculatePitch	SDL_pixels.c	/^SDL_CalculatePitch(SDL_Surface * surface)$/
+SDL_CalculateShapeBitmap	SDL_shape.c	/^SDL_CalculateShapeBitmap(SDL_WindowShapeMode mode,/
+SDL_CalculateShapeTree	SDL_shape.c	/^SDL_CalculateShapeTree(SDL_WindowShapeMode mode,SD/
+SDL_ChooseBlitFunc	SDL_blit.c	/^SDL_ChooseBlitFunc(Uint32 src_format, Uint32 dst_f/
+SDL_ClearDirtyRects	SDL_rect.c	/^SDL_ClearDirtyRects(SDL_DirtyRectList * list)$/
+SDL_ConvertColorkeyToAlpha	SDL_surface.c	/^SDL_ConvertColorkeyToAlpha(SDL_Surface * surface)$/
+SDL_ConvertPixels	SDL_surface.c	/^int SDL_ConvertPixels(int width, int height,$/
+SDL_ConvertSurface	SDL_surface.c	/^SDL_ConvertSurface(SDL_Surface * surface, SDL_Pixe/
+SDL_CreateRGBSurface	SDL_surface.c	/^SDL_CreateRGBSurface(Uint32 flags,$/
+SDL_CreateRGBSurfaceFrom	SDL_surface.c	/^SDL_CreateRGBSurfaceFrom(void *pixels,$/
+SDL_CreateRenderer	SDL_video.c	/^SDL_CreateRenderer(SDL_Window * window, int index,/
+SDL_CreateShapedWindow	SDL_shape.c	/^SDL_CreateShapedWindow(const char *title,unsigned /
+SDL_CreateSurfaceOnStack	SDL_surface.c	/^SDL_CreateSurfaceOnStack(int width, int height, Ui/
+SDL_CreateTexture	SDL_video.c	/^SDL_CreateTexture(Uint32 format, int access, int w/
+SDL_CreateTextureFromSurface	SDL_video.c	/^SDL_CreateTextureFromSurface(Uint32 format, SDL_Su/
+SDL_CreateWindow	SDL_video.c	/^SDL_CreateWindow(const char *title, int x, int y, /
+SDL_CreateWindowFrom	SDL_video.c	/^SDL_CreateWindowFrom(const void *data)$/
+SDL_DelPaletteWatch	SDL_pixels.c	/^SDL_DelPaletteWatch(SDL_Palette * palette, SDL_Pal/
+SDL_DestroyRenderer	SDL_video.c	/^SDL_DestroyRenderer(SDL_Window * window)$/
+SDL_DestroyTexture	SDL_video.c	/^SDL_DestroyTexture(SDL_Texture * texture)$/
+SDL_DestroyWindow	SDL_video.c	/^SDL_DestroyWindow(SDL_Window * window)$/
+SDL_DirtyTexture	SDL_video.c	/^SDL_DirtyTexture(SDL_Texture * texture, int numrec/
+SDL_DisableScreenSaver	SDL_video.c	/^SDL_DisableScreenSaver()$/
+SDL_DitherColors	SDL_pixels.c	/^SDL_DitherColors(SDL_Color * colors, int bpp)$/
+SDL_DrawLine	SDL_drawline.c	/^SDL_DrawLine(SDL_Surface * dst, int x1, int y1, in/
+SDL_DrawLine1	SDL_drawline.c	/^SDL_DrawLine1(SDL_Surface * dst, int x1, int y1, i/
+SDL_DrawLine2	SDL_drawline.c	/^SDL_DrawLine2(SDL_Surface * dst, int x1, int y1, i/
+SDL_DrawLine4	SDL_drawline.c	/^SDL_DrawLine4(SDL_Surface * dst, int x1, int y1, i/
+SDL_DrawLines	SDL_drawline.c	/^SDL_DrawLines(SDL_Surface * dst, const SDL_Point */
+SDL_DrawPoint	SDL_drawpoint.c	/^SDL_DrawPoint(SDL_Surface * dst, int x, int y, Uin/
+SDL_DrawPoints	SDL_drawpoint.c	/^SDL_DrawPoints(SDL_Surface * dst, const SDL_Point /
+SDL_DrawRect	SDL_drawrect.c	/^SDL_DrawRect(SDL_Surface * dst, const SDL_Rect * r/
+SDL_DrawRects	SDL_drawrect.c	/^SDL_DrawRects(SDL_Surface * dst, const SDL_Rect **/
+SDL_EnableScreenSaver	SDL_video.c	/^SDL_EnableScreenSaver()$/
+SDL_EnclosePoints	SDL_rect.c	/^SDL_EnclosePoints(const SDL_Point * points, int co/
+SDL_FillRect	SDL_fillrect.c	/^SDL_FillRect(SDL_Surface * dst, const SDL_Rect * r/
+SDL_FillRect1MMX	SDL_fillrect.c	/^SDL_FillRect1MMX(Uint8 *pixels, int pitch, Uint32 /
+SDL_FillRect1SSE	SDL_fillrect.c	/^SDL_FillRect1SSE(Uint8 *pixels, int pitch, Uint32 /
+SDL_FillRect2	SDL_fillrect.c	/^SDL_FillRect2(Uint8 * pixels, int pitch, Uint32 co/
+SDL_FillRect3	SDL_fillrect.c	/^SDL_FillRect3(Uint8 * pixels, int pitch, Uint32 co/
+SDL_FillRect4	SDL_fillrect.c	/^SDL_FillRect4(Uint8 * pixels, int pitch, Uint32 co/
+SDL_FillRects	SDL_fillrect.c	/^SDL_FillRects(SDL_Surface * dst, const SDL_Rect **/
+SDL_FindColor	SDL_pixels.c	/^SDL_FindColor(SDL_Palette * pal, Uint8 r, Uint8 g,/
+SDL_FormatChanged	SDL_pixels.c	/^SDL_FormatChanged(SDL_Surface * surface)$/
+SDL_FreeBlitMap	SDL_pixels.c	/^SDL_FreeBlitMap(SDL_BlitMap * map)$/
+SDL_FreeDirtyRects	SDL_rect.c	/^SDL_FreeDirtyRects(SDL_DirtyRectList * list)$/
+SDL_FreeFormat	SDL_pixels.c	/^SDL_FreeFormat(SDL_PixelFormat * format)$/
+SDL_FreePalette	SDL_pixels.c	/^SDL_FreePalette(SDL_Palette * palette)$/
+SDL_FreeShapeTree	SDL_shape.c	/^SDL_FreeShapeTree(SDL_ShapeTree** shape_tree) {$/
+SDL_FreeSurface	SDL_surface.c	/^SDL_FreeSurface(SDL_Surface * surface)$/
+SDL_GL_CreateContext	SDL_video.c	/^SDL_GL_CreateContext(SDL_Window * window)$/
+SDL_GL_DeleteContext	SDL_video.c	/^SDL_GL_DeleteContext(SDL_GLContext context)$/
+SDL_GL_ExtensionSupported	SDL_video.c	/^SDL_GL_ExtensionSupported(const char *extension)$/
+SDL_GL_GetAttribute	SDL_video.c	/^SDL_GL_GetAttribute(SDL_GLattr attr, int *value)$/
+SDL_GL_GetProcAddress	SDL_video.c	/^SDL_GL_GetProcAddress(const char *proc)$/
+SDL_GL_GetSwapInterval	SDL_video.c	/^SDL_GL_GetSwapInterval(void)$/
+SDL_GL_LoadLibrary	SDL_video.c	/^SDL_GL_LoadLibrary(const char *path)$/
+SDL_GL_MakeCurrent	SDL_video.c	/^SDL_GL_MakeCurrent(SDL_Window * window, SDL_GLCont/
+SDL_GL_SetAttribute	SDL_video.c	/^SDL_GL_SetAttribute(SDL_GLattr attr, int value)$/
+SDL_GL_SetSwapInterval	SDL_video.c	/^SDL_GL_SetSwapInterval(int interval)$/
+SDL_GL_SwapWindow	SDL_video.c	/^SDL_GL_SwapWindow(SDL_Window * window)$/
+SDL_GL_UnloadLibrary	SDL_video.c	/^SDL_GL_UnloadLibrary(void)$/
+SDL_GetClipRect	SDL_surface.c	/^SDL_GetClipRect(SDL_Surface * surface, SDL_Rect * /
+SDL_GetClipboardText	SDL_clipboard.c	/^SDL_GetClipboardText(void)$/
+SDL_GetClosestDisplayMode	SDL_video.c	/^SDL_GetClosestDisplayMode(const SDL_DisplayMode * /
+SDL_GetClosestDisplayModeForDisplay	SDL_video.c	/^SDL_GetClosestDisplayModeForDisplay(SDL_VideoDispl/
+SDL_GetColorKey	SDL_surface.c	/^SDL_GetColorKey(SDL_Surface * surface, Uint32 * ke/
+SDL_GetCurrentDisplayMode	SDL_video.c	/^SDL_GetCurrentDisplayMode(SDL_DisplayMode * mode)$/
+SDL_GetCurrentDisplayModeForDisplay	SDL_video.c	/^SDL_GetCurrentDisplayModeForDisplay(SDL_VideoDispl/
+SDL_GetCurrentRenderer	SDL_video.c	/^SDL_GetCurrentRenderer(SDL_bool create)$/
+SDL_GetCurrentVideoDisplay	SDL_video.c	/^SDL_GetCurrentVideoDisplay(void)$/
+SDL_GetCurrentVideoDriver	SDL_video.c	/^SDL_GetCurrentVideoDriver()$/
+SDL_GetDesktopDisplayMode	SDL_video.c	/^SDL_GetDesktopDisplayMode(SDL_DisplayMode * mode)$/
+SDL_GetDesktopDisplayModeForDisplay	SDL_video.c	/^SDL_GetDesktopDisplayModeForDisplay(SDL_VideoDispl/
+SDL_GetDisplayBounds	SDL_video.c	/^SDL_GetDisplayBounds(int index, SDL_Rect * rect)$/
+SDL_GetDisplayMode	SDL_video.c	/^SDL_GetDisplayMode(int index, SDL_DisplayMode * mo/
+SDL_GetDisplayModeForDisplay	SDL_video.c	/^SDL_GetDisplayModeForDisplay(SDL_VideoDisplay * di/
+SDL_GetDisplayPalette	SDL_video.c	/^SDL_GetDisplayPalette(SDL_Color * colors, int firs/
+SDL_GetFocusWindow	SDL_video.c	/^SDL_GetFocusWindow(void)$/
+SDL_GetGamma	SDL_gamma.c	/^SDL_GetGamma(float *red, float *green, float *blue/
+SDL_GetGammaRamp	SDL_gamma.c	/^SDL_GetGammaRamp(Uint16 * red, Uint16 * green, Uin/
+SDL_GetGammaRampForDisplay	SDL_gamma.c	/^SDL_GetGammaRampForDisplay(SDL_VideoDisplay * disp/
+SDL_GetNumDisplayModes	SDL_video.c	/^SDL_GetNumDisplayModes()$/
+SDL_GetNumDisplayModesForDisplay	SDL_video.c	/^SDL_GetNumDisplayModesForDisplay(SDL_VideoDisplay /
+SDL_GetNumRenderDrivers	SDL_video.c	/^SDL_GetNumRenderDrivers(void)$/
+SDL_GetNumVideoDisplays	SDL_video.c	/^SDL_GetNumVideoDisplays(void)$/
+SDL_GetNumVideoDrivers	SDL_video.c	/^SDL_GetNumVideoDrivers(void)$/
+SDL_GetPaletteForDisplay	SDL_video.c	/^SDL_GetPaletteForDisplay(SDL_VideoDisplay * displa/
+SDL_GetPixelFormatName	SDL_pixels.c	/^SDL_GetPixelFormatName(Uint32 format)$/
+SDL_GetRGB	SDL_pixels.c	/^SDL_GetRGB(Uint32 pixel, const SDL_PixelFormat * f/
+SDL_GetRGBA	SDL_pixels.c	/^SDL_GetRGBA(Uint32 pixel, const SDL_PixelFormat * /
+SDL_GetRenderDrawBlendMode	SDL_video.c	/^SDL_GetRenderDrawBlendMode(SDL_BlendMode *blendMod/
+SDL_GetRenderDrawColor	SDL_video.c	/^SDL_GetRenderDrawColor(Uint8 * r, Uint8 * g, Uint8/
+SDL_GetRenderDriverInfo	SDL_video.c	/^SDL_GetRenderDriverInfo(int index, SDL_RendererInf/
+SDL_GetRendererInfo	SDL_video.c	/^SDL_GetRendererInfo(SDL_RendererInfo * info)$/
+SDL_GetShapedWindowMode	SDL_shape.c	/^SDL_GetShapedWindowMode(SDL_Window *window,SDL_Win/
+SDL_GetSurfaceAlphaMod	SDL_surface.c	/^SDL_GetSurfaceAlphaMod(SDL_Surface * surface, Uint/
+SDL_GetSurfaceBlendMode	SDL_surface.c	/^SDL_GetSurfaceBlendMode(SDL_Surface * surface, SDL/
+SDL_GetSurfaceColorMod	SDL_surface.c	/^SDL_GetSurfaceColorMod(SDL_Surface * surface, Uint/
+SDL_GetSurfaceScaleMode	SDL_surface.c	/^SDL_GetSurfaceScaleMode(SDL_Surface * surface, SDL/
+SDL_GetTextureAlphaMod	SDL_video.c	/^SDL_GetTextureAlphaMod(SDL_Texture * texture, Uint/
+SDL_GetTextureBlendMode	SDL_video.c	/^SDL_GetTextureBlendMode(SDL_Texture * texture, SDL/
+SDL_GetTextureColorMod	SDL_video.c	/^SDL_GetTextureColorMod(SDL_Texture * texture, Uint/
+SDL_GetTexturePalette	SDL_video.c	/^SDL_GetTexturePalette(SDL_Texture * texture, SDL_C/
+SDL_GetTextureScaleMode	SDL_video.c	/^SDL_GetTextureScaleMode(SDL_Texture * texture, SDL/
+SDL_GetVideoDevice	SDL_video.c	/^SDL_GetVideoDevice(void)$/
+SDL_GetVideoDriver	SDL_video.c	/^SDL_GetVideoDriver(int index)$/
+SDL_GetWindowData	SDL_video.c	/^SDL_GetWindowData(SDL_Window * window)$/
+SDL_GetWindowDisplayMode	SDL_video.c	/^SDL_GetWindowDisplayMode(SDL_Window * window, SDL_/
+SDL_GetWindowFlags	SDL_video.c	/^SDL_GetWindowFlags(SDL_Window * window)$/
+SDL_GetWindowFromID	SDL_video.c	/^SDL_GetWindowFromID(Uint32 id)$/
+SDL_GetWindowGrab	SDL_video.c	/^SDL_GetWindowGrab(SDL_Window * window)$/
+SDL_GetWindowID	SDL_video.c	/^SDL_GetWindowID(SDL_Window * window)$/
+SDL_GetWindowPosition	SDL_video.c	/^SDL_GetWindowPosition(SDL_Window * window, int *x,/
+SDL_GetWindowSize	SDL_video.c	/^SDL_GetWindowSize(SDL_Window * window, int *w, int/
+SDL_GetWindowTitle	SDL_video.c	/^SDL_GetWindowTitle(SDL_Window * window)$/
+SDL_GetWindowWMInfo	SDL_video.c	/^SDL_GetWindowWMInfo(SDL_Window * window, struct SD/
+SDL_HasClipboardText	SDL_clipboard.c	/^SDL_HasClipboardText(void)$/
+SDL_HasIntersection	SDL_rect.c	/^SDL_HasIntersection(const SDL_Rect * A, const SDL_/
+SDL_HideWindow	SDL_video.c	/^SDL_HideWindow(SDL_Window * window)$/
+SDL_InitFormat	SDL_pixels.c	/^SDL_InitFormat(SDL_PixelFormat * format, int bpp, /
+SDL_IntersectRect	SDL_rect.c	/^SDL_IntersectRect(const SDL_Rect * A, const SDL_Re/
+SDL_IntersectRectAndLine	SDL_rect.c	/^SDL_IntersectRectAndLine(const SDL_Rect * rect, in/
+SDL_InvalidateMap	SDL_pixels.c	/^SDL_InvalidateMap(SDL_BlitMap * map)$/
+SDL_IsScreenSaverEnabled	SDL_video.c	/^SDL_IsScreenSaverEnabled()$/
+SDL_IsShapedWindow	SDL_shape.c	/^SDL_IsShapedWindow(const SDL_Window *window) {$/
+SDL_LoadBMP_RW	SDL_bmp.c	/^SDL_LoadBMP_RW(SDL_RWops * src, int freesrc)$/
+SDL_LockSurface	SDL_surface.c	/^SDL_LockSurface(SDL_Surface * surface)$/
+SDL_LockTexture	SDL_video.c	/^SDL_LockTexture(SDL_Texture * texture, const SDL_R/
+SDL_LowerBlit	SDL_surface.c	/^SDL_LowerBlit(SDL_Surface * src, SDL_Rect * srcrec/
+SDL_MapRGB	SDL_pixels.c	/^SDL_MapRGB(const SDL_PixelFormat * format, Uint8 r/
+SDL_MapRGBA	SDL_pixels.c	/^SDL_MapRGBA(const SDL_PixelFormat * format, Uint8 /
+SDL_MapSurface	SDL_pixels.c	/^SDL_MapSurface(SDL_Surface * src, SDL_Surface * ds/
+SDL_MasksToPixelFormatEnum	SDL_pixels.c	/^SDL_MasksToPixelFormatEnum(int bpp, Uint32 Rmask, /
+SDL_MaximizeWindow	SDL_video.c	/^SDL_MaximizeWindow(SDL_Window * window)$/
+SDL_MinimizeWindow	SDL_video.c	/^SDL_MinimizeWindow(SDL_Window * window)$/
+SDL_OnWindowFocusGained	SDL_video.c	/^SDL_OnWindowFocusGained(SDL_Window * window)$/
+SDL_OnWindowFocusLost	SDL_video.c	/^SDL_OnWindowFocusLost(SDL_Window * window)$/
+SDL_OnWindowHidden	SDL_video.c	/^SDL_OnWindowHidden(SDL_Window * window)$/
+SDL_OnWindowMinimized	SDL_video.c	/^SDL_OnWindowMinimized(SDL_Window * window)$/
+SDL_OnWindowResized	SDL_video.c	/^SDL_OnWindowResized(SDL_Window * window)$/
+SDL_OnWindowRestored	SDL_video.c	/^SDL_OnWindowRestored(SDL_Window * window)$/
+SDL_OnWindowShown	SDL_video.c	/^SDL_OnWindowShown(SDL_Window * window)$/
+SDL_PROC	SDL_renderer_gl.c	/^#define SDL_PROC(ret,func,params) ret (APIENTRY *f/
+SDL_PixelFormatEnumToMasks	SDL_pixels.c	/^SDL_PixelFormatEnumToMasks(Uint32 format, int *bpp/
+SDL_QueryTexture	SDL_video.c	/^SDL_QueryTexture(SDL_Texture * texture, Uint32 * f/
+SDL_QueryTexturePixels	SDL_video.c	/^SDL_QueryTexturePixels(SDL_Texture * texture, void/
+SDL_RLEAlphaBlit	SDL_RLEaccel.c	/^SDL_RLEAlphaBlit(SDL_Surface * src, SDL_Rect * src/
+SDL_RLEBlit	SDL_RLEaccel.c	/^SDL_RLEBlit(SDL_Surface * src, SDL_Rect * srcrect,/
+SDL_RLESurface	SDL_RLEaccel.c	/^SDL_RLESurface(SDL_Surface * surface)$/
+SDL_RaiseWindow	SDL_video.c	/^SDL_RaiseWindow(SDL_Window * window)$/
+SDL_RecreateWindow	SDL_video.c	/^SDL_RecreateWindow(SDL_Window * window, Uint32 fla/
+SDL_RenderClear	SDL_video.c	/^SDL_RenderClear()$/
+SDL_RenderCopy	SDL_video.c	/^SDL_RenderCopy(SDL_Texture * texture, const SDL_Re/
+SDL_RenderDrawLine	SDL_video.c	/^SDL_RenderDrawLine(int x1, int y1, int x2, int y2)/
+SDL_RenderDrawLines	SDL_video.c	/^SDL_RenderDrawLines(const SDL_Point * points, int /
+SDL_RenderDrawPoint	SDL_video.c	/^SDL_RenderDrawPoint(int x, int y)$/
+SDL_RenderDrawPoints	SDL_video.c	/^SDL_RenderDrawPoints(const SDL_Point * points, int/
+SDL_RenderDrawRect	SDL_video.c	/^SDL_RenderDrawRect(const SDL_Rect * rect)$/
+SDL_RenderDrawRects	SDL_video.c	/^SDL_RenderDrawRects(const SDL_Rect ** rects, int c/
+SDL_RenderFillRect	SDL_video.c	/^SDL_RenderFillRect(const SDL_Rect * rect)$/
+SDL_RenderFillRects	SDL_video.c	/^SDL_RenderFillRects(const SDL_Rect ** rects, int c/
+SDL_RenderPresent	SDL_video.c	/^SDL_RenderPresent(void)$/
+SDL_RenderReadPixels	SDL_video.c	/^SDL_RenderReadPixels(const SDL_Rect * rect, Uint32/
+SDL_RenderWritePixels	SDL_video.c	/^SDL_RenderWritePixels(const SDL_Rect * rect, Uint3/
+SDL_RestoreWindow	SDL_video.c	/^SDL_RestoreWindow(SDL_Window * window)$/
+SDL_SW_CopyYUVToRGB	SDL_yuv_sw.c	/^SDL_SW_CopyYUVToRGB(SDL_SW_YUVTexture * swdata, co/
+SDL_SW_CreateYUVTexture	SDL_yuv_sw.c	/^SDL_SW_CreateYUVTexture(Uint32 format, int w, int /
+SDL_SW_DestroyYUVTexture	SDL_yuv_sw.c	/^SDL_SW_DestroyYUVTexture(SDL_SW_YUVTexture * swdat/
+SDL_SW_LockYUVTexture	SDL_yuv_sw.c	/^SDL_SW_LockYUVTexture(SDL_SW_YUVTexture * swdata, /
+SDL_SW_QueryYUVTexturePixels	SDL_yuv_sw.c	/^SDL_SW_QueryYUVTexturePixels(SDL_SW_YUVTexture * s/
+SDL_SW_SetupYUVDisplay	SDL_yuv_sw.c	/^SDL_SW_SetupYUVDisplay(SDL_SW_YUVTexture * swdata,/
+SDL_SW_UnlockYUVTexture	SDL_yuv_sw.c	/^SDL_SW_UnlockYUVTexture(SDL_SW_YUVTexture * swdata/
+SDL_SW_UpdateYUVTexture	SDL_yuv_sw.c	/^SDL_SW_UpdateYUVTexture(SDL_SW_YUVTexture * swdata/
+SDL_SaveBMP_RW	SDL_bmp.c	/^SDL_SaveBMP_RW(SDL_Surface * saveme, SDL_RWops * d/
+SDL_SelectRenderer	SDL_video.c	/^SDL_SelectRenderer(SDL_Window * window)$/
+SDL_SelectVideoDisplay	SDL_video.c	/^SDL_SelectVideoDisplay(int index)$/
+SDL_SetClipRect	SDL_surface.c	/^SDL_SetClipRect(SDL_Surface * surface, const SDL_R/
+SDL_SetClipboardText	SDL_clipboard.c	/^SDL_SetClipboardText(const char *text)$/
+SDL_SetColorKey	SDL_surface.c	/^SDL_SetColorKey(SDL_Surface * surface, int flag, U/
+SDL_SetDisplayModeForDisplay	SDL_video.c	/^SDL_SetDisplayModeForDisplay(SDL_VideoDisplay * di/
+SDL_SetDisplayPalette	SDL_video.c	/^SDL_SetDisplayPalette(const SDL_Color * colors, in/
+SDL_SetGamma	SDL_gamma.c	/^SDL_SetGamma(float red, float green, float blue)$/
+SDL_SetGammaRamp	SDL_gamma.c	/^SDL_SetGammaRamp(const Uint16 * red, const Uint16 /
+SDL_SetGammaRampForDisplay	SDL_gamma.c	/^SDL_SetGammaRampForDisplay(SDL_VideoDisplay * disp/
+SDL_SetPaletteColors	SDL_pixels.c	/^SDL_SetPaletteColors(SDL_Palette * palette, const /
+SDL_SetPaletteForDisplay	SDL_video.c	/^SDL_SetPaletteForDisplay(SDL_VideoDisplay * displa/
+SDL_SetRenderDrawBlendMode	SDL_video.c	/^SDL_SetRenderDrawBlendMode(SDL_BlendMode blendMode/
+SDL_SetRenderDrawColor	SDL_video.c	/^SDL_SetRenderDrawColor(Uint8 r, Uint8 g, Uint8 b, /
+SDL_SetSurfaceAlphaMod	SDL_surface.c	/^SDL_SetSurfaceAlphaMod(SDL_Surface * surface, Uint/
+SDL_SetSurfaceBlendMode	SDL_surface.c	/^SDL_SetSurfaceBlendMode(SDL_Surface * surface, SDL/
+SDL_SetSurfaceColorMod	SDL_surface.c	/^SDL_SetSurfaceColorMod(SDL_Surface * surface, Uint/
+SDL_SetSurfacePalette	SDL_surface.c	/^SDL_SetSurfacePalette(SDL_Surface * surface, SDL_P/
+SDL_SetSurfaceRLE	SDL_surface.c	/^SDL_SetSurfaceRLE(SDL_Surface * surface, int flag)/
+SDL_SetSurfaceScaleMode	SDL_surface.c	/^SDL_SetSurfaceScaleMode(SDL_Surface * surface, SDL/
+SDL_SetTextInputRect	SDL_video.c	/^SDL_SetTextInputRect(SDL_Rect *rect)$/
+SDL_SetTextureAlphaMod	SDL_video.c	/^SDL_SetTextureAlphaMod(SDL_Texture * texture, Uint/
+SDL_SetTextureBlendMode	SDL_video.c	/^SDL_SetTextureBlendMode(SDL_Texture * texture, SDL/
+SDL_SetTextureColorMod	SDL_video.c	/^SDL_SetTextureColorMod(SDL_Texture * texture, Uint/
+SDL_SetTexturePalette	SDL_video.c	/^SDL_SetTexturePalette(SDL_Texture * texture, const/
+SDL_SetTextureScaleMode	SDL_video.c	/^SDL_SetTextureScaleMode(SDL_Texture * texture, SDL/
+SDL_SetWindowData	SDL_video.c	/^SDL_SetWindowData(SDL_Window * window, void *userd/
+SDL_SetWindowDisplayMode	SDL_video.c	/^SDL_SetWindowDisplayMode(SDL_Window * window, cons/
+SDL_SetWindowFullscreen	SDL_video.c	/^SDL_SetWindowFullscreen(SDL_Window * window, int f/
+SDL_SetWindowGrab	SDL_video.c	/^SDL_SetWindowGrab(SDL_Window * window, int mode)$/
+SDL_SetWindowIcon	SDL_video.c	/^SDL_SetWindowIcon(SDL_Window * window, SDL_Surface/
+SDL_SetWindowPosition	SDL_video.c	/^SDL_SetWindowPosition(SDL_Window * window, int x, /
+SDL_SetWindowShape	SDL_shape.c	/^SDL_SetWindowShape(SDL_Window *window,SDL_Surface /
+SDL_SetWindowSize	SDL_video.c	/^SDL_SetWindowSize(SDL_Window * window, int w, int /
+SDL_SetWindowTitle	SDL_video.c	/^SDL_SetWindowTitle(SDL_Window * window, const char/
+SDL_ShowWindow	SDL_video.c	/^SDL_ShowWindow(SDL_Window * window)$/
+SDL_SoftBlit	SDL_blit.c	/^SDL_SoftBlit(SDL_Surface * src, SDL_Rect * srcrect/
+SDL_SoftStretch	SDL_stretch.c	/^SDL_SoftStretch(SDL_Surface * src, const SDL_Rect /
+SDL_StartTextInput	SDL_video.c	/^SDL_StartTextInput(void)$/
+SDL_StopTextInput	SDL_video.c	/^SDL_StopTextInput(void)$/
+SDL_SurfacePaletteChanged	SDL_surface.c	/^SDL_SurfacePaletteChanged(void *userdata, SDL_Pale/
+SDL_TraverseShapeTree	SDL_shape.c	/^SDL_TraverseShapeTree(SDL_ShapeTree *tree,SDL_Trav/
+SDL_UnRLESurface	SDL_RLEaccel.c	/^SDL_UnRLESurface(SDL_Surface * surface, int recode/
+SDL_UninitializedVideo	SDL_gamma.c	/^SDL_UninitializedVideo()$/
+SDL_UnionRect	SDL_rect.c	/^SDL_UnionRect(const SDL_Rect * A, const SDL_Rect */
+SDL_UnlockSurface	SDL_surface.c	/^SDL_UnlockSurface(SDL_Surface * surface)$/
+SDL_UnlockTexture	SDL_video.c	/^SDL_UnlockTexture(SDL_Texture * texture)$/
+SDL_UpdateFullscreenMode	SDL_video.c	/^SDL_UpdateFullscreenMode(SDL_Window * window, SDL_/
+SDL_UpdateTexture	SDL_video.c	/^SDL_UpdateTexture(SDL_Texture * texture, const SDL/
+SDL_UpdateWindowGrab	SDL_video.c	/^SDL_UpdateWindowGrab(SDL_Window * window)$/
+SDL_UpperBlit	SDL_surface.c	/^SDL_UpperBlit(SDL_Surface * src, const SDL_Rect * /
+SDL_UseAltivecPrefetch	SDL_blit.c	/^SDL_UseAltivecPrefetch()$/
+SDL_VideoInit	SDL_video.c	/^SDL_VideoInit(const char *driver_name, Uint32 flag/
+SDL_VideoQuit	SDL_video.c	/^SDL_VideoQuit(void)$/
+SDL_WM_SetIcon	SDL_video.c	/^SDL_WM_SetIcon(SDL_Surface * icon, Uint8 * mask)$/
+SDL_WindowHasAShape	SDL_shape.c	/^SDL_WindowHasAShape(SDL_Window *window) {$/
+SDL_memcpyMMX	SDL_blit_copy.c	/^SDL_memcpyMMX(Uint8 * dst, const Uint8 * src, int /
+SDL_memcpySSE	SDL_blit_copy.c	/^SDL_memcpySSE(Uint8 * dst, const Uint8 * src, int /
+SET_MASKBIT	SDL_video.c	/^#define SET_MASKBIT(icon, x, y, mask) \\$/
+SW_ActivateRenderer	SDL_renderer_sw.c	/^SW_ActivateRenderer(SDL_Renderer * renderer)$/
+SW_CreateRenderer	SDL_renderer_sw.c	/^SW_CreateRenderer(SDL_Window * window, Uint32 flag/
+SW_CreateTexture	SDL_renderer_sw.c	/^SW_CreateTexture(SDL_Renderer * renderer, SDL_Text/
+SW_DestroyRenderer	SDL_renderer_sw.c	/^SW_DestroyRenderer(SDL_Renderer * renderer)$/
+SW_DestroyTexture	SDL_renderer_sw.c	/^SW_DestroyTexture(SDL_Renderer * renderer, SDL_Tex/
+SW_DisplayModeChanged	SDL_renderer_sw.c	/^SW_DisplayModeChanged(SDL_Renderer * renderer)$/
+SW_GetTexturePalette	SDL_renderer_sw.c	/^SW_GetTexturePalette(SDL_Renderer * renderer, SDL_/
+SW_LockTexture	SDL_renderer_sw.c	/^SW_LockTexture(SDL_Renderer * renderer, SDL_Textur/
+SW_QueryTexturePixels	SDL_renderer_sw.c	/^SW_QueryTexturePixels(SDL_Renderer * renderer, SDL/
+SW_RenderCopy	SDL_renderer_sw.c	/^SW_RenderCopy(SDL_Renderer * renderer, SDL_Texture/
+SW_RenderData	SDL_renderer_sw.c	/^} SW_RenderData;$/
+SW_RenderDrawLines	SDL_renderer_sw.c	/^SW_RenderDrawLines(SDL_Renderer * renderer, const /
+SW_RenderDrawPoints	SDL_renderer_sw.c	/^SW_RenderDrawPoints(SDL_Renderer * renderer, const/
+SW_RenderDrawRects	SDL_renderer_sw.c	/^SW_RenderDrawRects(SDL_Renderer * renderer, const /
+SW_RenderFillRects	SDL_renderer_sw.c	/^SW_RenderFillRects(SDL_Renderer * renderer, const /
+SW_RenderPresent	SDL_renderer_sw.c	/^SW_RenderPresent(SDL_Renderer * renderer)$/
+SW_RenderReadPixels	SDL_renderer_sw.c	/^SW_RenderReadPixels(SDL_Renderer * renderer, const/
+SW_RenderWritePixels	SDL_renderer_sw.c	/^SW_RenderWritePixels(SDL_Renderer * renderer, cons/
+SW_SetTextureAlphaMod	SDL_renderer_sw.c	/^SW_SetTextureAlphaMod(SDL_Renderer * renderer, SDL/
+SW_SetTextureBlendMode	SDL_renderer_sw.c	/^SW_SetTextureBlendMode(SDL_Renderer * renderer, SD/
+SW_SetTextureColorMod	SDL_renderer_sw.c	/^SW_SetTextureColorMod(SDL_Renderer * renderer, SDL/
+SW_SetTexturePalette	SDL_renderer_sw.c	/^SW_SetTexturePalette(SDL_Renderer * renderer, SDL_/
+SW_SetTextureScaleMode	SDL_renderer_sw.c	/^SW_SetTextureScaleMode(SDL_Renderer * renderer, SD/
+SW_UnlockTexture	SDL_renderer_sw.c	/^SW_UnlockTexture(SDL_Renderer * renderer, SDL_Text/
+SW_UpdateTexture	SDL_renderer_sw.c	/^SW_UpdateTexture(SDL_Renderer * renderer, SDL_Text/
+SetupTextureUpdate	SDL_renderer_gl.c	/^SetupTextureUpdate(GL_RenderData * renderdata, SDL/
+Setup_SoftwareRenderer	SDL_renderer_sw.c	/^Setup_SoftwareRenderer(SDL_Renderer * renderer)$/
+UNALIGNED_PTR	SDL_blit_A.c	/^#define UNALIGNED_PTR(x) (((size_t) x) & 0x0000000/
+Uint8	SDL_RLEaccel.c	/^typedef Uint32(*getpix_func) (Uint8 *);$/
+UnRLEAlpha	SDL_RLEaccel.c	/^UnRLEAlpha(SDL_Surface * surface)$/
+VECPRINT	SDL_blit_A.c	/^#define VECPRINT(msg, v) do { \\$/
+VECUINT16_LITERAL	SDL_blit_A.c	/^#define VECUINT16_LITERAL(a,b,c,d,e,f,g,h) \\$/
+VECUINT8_LITERAL	SDL_blit_A.c	/^#define VECUINT8_LITERAL(a,b,c,d,e,f,g,h,i,j,k,l,m/
+VEC_ALIGNER	SDL_blit_A.c	/^#define VEC_ALIGNER(src) ((UNALIGNED_PTR(src)) \\$/
+VEC_ALPHA_MASK	SDL_blit_A.c	/^#define VEC_ALPHA_MASK() ((vector unsigned char)ve/
+VEC_MERGE_PERMUTE	SDL_blit_A.c	/^#define VEC_MERGE_PERMUTE() (vec_add(vec_lvsl(0, (/
+VEC_MULTIPLY_ALPHA	SDL_blit_A.c	/^#define VEC_MULTIPLY_ALPHA(vs, vd, valpha, mergePe/
+VEC_U32_24	SDL_blit_A.c	/^#define VEC_U32_24() (vec_add(vec_splat_u32(12), v/
+VSWIZZLE32	SDL_blit_N.c	/^#define VSWIZZLE32(a,b,c,d) (vector unsigned char)/
+assert	SDL_blit_N.c	/^#define assert(X)$/
+bytes_per_pixel	SDL_renderer_gl.c	/^bytes_per_pixel(const Uint32 format)$/
+calc_swizzle32	SDL_blit_A.c	/^calc_swizzle32(const SDL_PixelFormat * srcfmt, con/
+cmpmodes	SDL_video.c	/^cmpmodes(const void *A, const void *B)$/
+compile_shader	SDL_renderer_gl.c	/^compile_shader(GL_RenderData * data, GLenum shader/
+convert_format	SDL_renderer_gl.c	/^convert_format(GL_RenderData *renderdata, Uint32 p/
+copy_32	SDL_RLEaccel.c	/^copy_32(void *dst, Uint32 * src, int n,$/
+copy_opaque_16	SDL_RLEaccel.c	/^copy_opaque_16(void *dst, Uint32 * src, int n,$/
+copy_transl_555	SDL_RLEaccel.c	/^copy_transl_555(void *dst, Uint32 * src, int n,$/
+copy_transl_565	SDL_RLEaccel.c	/^copy_transl_565(void *dst, Uint32 * src, int n,$/
+draw_end	SDL_blendline.c	/^                               SDL_bool draw_end);/
+free_bits_at_bottom	SDL_yuv_sw.c	/^free_bits_at_bottom(Uint32 a)$/
+generate_rowbytes	SDL_stretch.c	/^generate_rowbytes(int src_w, int dst_w, int bpp)$/
+getpix_16	SDL_RLEaccel.c	/^getpix_16(Uint8 * srcbuf)$/
+getpix_24	SDL_RLEaccel.c	/^getpix_24(Uint8 * srcbuf)$/
+getpix_32	SDL_RLEaccel.c	/^getpix_32(Uint8 * srcbuf)$/
+getpix_8	SDL_RLEaccel.c	/^getpix_8(Uint8 * srcbuf)$/
+glDrawTexiOES	SDL_renderer_gles.c	/^glDrawTexiOES(GLint x, GLint y, GLint z, GLint wid/
+number_of_bits_set	SDL_yuv_sw.c	/^number_of_bits_set(Uint32 a)$/
+power_of_2	SDL_renderer_gl.c	/^power_of_2(int input)$/
+set_shader_error	SDL_renderer_gl.c	/^set_shader_error(GL_RenderData * data, const char /
+uncopy_32	SDL_RLEaccel.c	/^uncopy_32(Uint32 * dst, void *src, int n,$/
+uncopy_opaque_16	SDL_RLEaccel.c	/^uncopy_opaque_16(Uint32 * dst, void *src, int n,$/
+uncopy_transl_16	SDL_RLEaccel.c	/^uncopy_transl_16(Uint32 * dst, void *src, int n,$/

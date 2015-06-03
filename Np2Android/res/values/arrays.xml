@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="mode_list">
+		<item>640x400</item>
+		<item>640x480</item>
+	</string-array>
+	<string-array name="mode_values">
+		<item>400</item>
+		<item>480</item>
+	</string-array>
+	<string-array name="position_list">
+		<item>left</item>
+		<item>center</item>
+		<item>right</item>
+	</string-array>
+	<string-array name="position_values">
+		<item>3</item>
+		<item>1</item>
+		<item>5</item>
+	</string-array>
+	<string-array name="keyposition_list">
+		<item>left</item>
+		<item>right</item>
+	</string-array>
+	<string-array name="keyposition_values">
+		<item>3</item>
+		<item>5</item>
+	</string-array>
+</resources>

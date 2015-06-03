@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="33dip"
+    android:keyWidth="6%p"
+    >
+    <Row>
+        <Key android:codes="15" android:keyLabel="TAB" android:keyEdgeFlags="left"/>
+        <Key android:codes="117" android:keyLabel="ESC" />
+        <Key android:codes="121" android:keyLabel="S" />        
+        <Key android:codes="122" android:keyLabel="L" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="116" android:keyLabel="CTL"/>
+        <Key android:codes="112" android:keyLabel="SFT"/>
+        <Key android:codes="113" android:keyLabel="CAP"/>
+        <Key android:codes="114" android:keyLabel="カナ"/>
+    </Row>
+    <Row>
+        <Key android:codes="115" android:keyLabel="GRH"/>
+        <Key android:codes="81" android:keyLabel="NFR"/>
+        <Key android:codes="53" android:keyLabel="XFR"/>
+        <Key android:codes="52" android:keyLabel="SPC"/>
+    </Row>
+    <Row>
+        <Key android:codes="62" android:keyLabel="CLR"/>
+        <Key android:codes="63" android:keyLabel="HLP"/>
+        <Key android:codes="64" android:keyLabel="-"/>
+        <Key android:codes="65" android:keyLabel="/"/>
+    </Row>
+    <Row>
+        <Key android:codes="66" android:keyLabel="7"/>
+        <Key android:codes="67" android:keyLabel="8"/>
+        <Key android:codes="68" android:keyLabel="9"/>
+        <Key android:codes="69" android:keyLabel="*"/>
+    </Row>
+    <Row>
+        <Key android:codes="70" android:keyLabel="4"/>
+        <Key android:codes="71" android:keyLabel="5"/>
+        <Key android:codes="72" android:keyLabel="6"/>
+        <Key android:codes="73" android:keyLabel="+"/>
+    </Row>
+    <Row>
+        <Key android:codes="74" android:keyLabel="1"/>
+        <Key android:codes="75" android:keyLabel="2"/>
+        <Key android:codes="76" android:keyLabel="3"/>
+        <Key android:codes="77" android:keyLabel="="/>
+    </Row>
+    <Row>
+        <Key android:codes="78" android:keyLabel="0"/>
+        <Key android:codes="79" android:keyLabel=","/>
+        <Key android:codes="80" android:keyLabel="."/>
+        <Key android:codes="28" android:keyLabel="RET"/>
+    </Row>
+</Keyboard>
